@@ -8,7 +8,7 @@ import org.junit.Test;
 public class EmailProgramTest {
 
 	
-	// UC3 To check email is valid or not
+	// UC3 To check email is valid or not.
 	@Test
 	public void EmailValidationItShouldReturnValidOrNot()
 	{
