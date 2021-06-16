@@ -5,10 +5,10 @@ import java.util.regex.Pattern;
 public class EmailProgram 
 {
 
-	// this method for uc3 test case 
+	// this method for uc4 test case 
 	public boolean validedemail(String email) 
 	{
-		return Pattern.matches("^([.a-zA-Z]{2,4})$", email);
+		return Pattern.matches("^([a-zA-Z0-9.]+)([0-9a-zA-Z]{0,1})$", email);
 	}
 			
 

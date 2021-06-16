@@ -8,14 +8,14 @@ import org.junit.Test;
 public class EmailProgramTest {
 
 	
-	// UC2 To check email is valid or not
+	// UC4 To check email is valid or not
 	@Test
 	public void EmailValidationItShouldReturnValidOrNot()
 	{
 		EmailProgram email = new EmailProgram();
-		assertTrue(email.validedemail(".co"));
-		assertTrue(email.validedemail(".in"));
-		assertTrue(email.validedemail(".com"));
+		assertTrue(email.validedemail("abc.xyz"));
+		assertTrue(email.validedemail("pratik.in"));
+		assertTrue(email.validedemail("a.com"));
 	}
 	
 	
