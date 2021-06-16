@@ -13,10 +13,9 @@ public class EmailProgramTest {
 	public void EmailValidationItShouldReturnValidOrNot()
 	{
 		EmailProgram email = new EmailProgram();
-		assertTrue(email.validedemail("@bridgelabz."));
-		assertTrue(email.validedemail("@bridgelabz"));
-		assertTrue(email.validedemail("@bridgelabz123"));
-		assertTrue(email.validedemail("@123bridgelabz"));
+		assertTrue(email.validedemail(".co"));
+		assertTrue(email.validedemail(".in"));
+		assertTrue(email.validedemail(".com"));
 	}
 	
 	
